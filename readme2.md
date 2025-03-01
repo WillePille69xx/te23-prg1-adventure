@@ -1,0 +1,1 @@
+I Will never USE AI EVER AGAIN to write stories AND I GIVE UP TRYING TO FIX THIS STUPID program.

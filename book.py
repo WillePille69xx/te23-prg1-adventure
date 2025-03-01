@@ -133,12 +133,11 @@ adventure = [
     {
         "id": 14,
         "title": "\nBreak the Mirror",
-        "text": "You decide to break the mirror. With a sharp crack, the glass shatters, and the room goes dark. A sudden, overwhelming silence fills the space. You hear something shift behind you. The broken pieces of glass begin to move, forming into a jagged shape that lunges at you. Do you fight the shape, run, or use the charm you found earlier?",
+        "text": "You decide to break the mirror. With a sharp crack, the glass shatters, and the room goes dark. A sudden, overwhelming silence fills the space. You hear something shift behind you. The broken pieces of glass begin to move, forming into a jagged shape that lunges at you. Do you fight the shape, or run?",
         "options": [
             {"text": "Fight the shape.", "next_id": 34},
-            {"text": "Run.", "next_id": 35},
-            {"text": "Use the charm.", "next_id": 36}
-        ],
+            {"text": "Run.", "next_id": 35}
+        ]
     },
     {
         "id": 15,
@@ -299,6 +298,267 @@ adventure = [
             {"text": "Call out for help.", "next_id": 83},
             {"text": "Attempt to escape.", "next_id": 84}
         ]
-    }
+    },
+    {
+        "id": 31,
+        "title": "\nApproach the Figure",
+        "text": "You cautiously approach the figure, its features still obscured by shadows. It steps forward, and the dim light reveals a face—twisted and worn, as if time itself has left its mark. It smiles at you, a grin full of malice and pity. The air grows cold as it speaks in a voice that feels like it's clawing at your mind: ‘Do you seek the truth, or do you only wish to be lost in the dark forever?’",
+        "options": [
+            {"text": "Seek the truth.", "next_id": 34},
+            {"text": "Remain silent.", "next_id": 35},
+            {"text": "Attack the figure.", "next_id": 36}
+        ]
+    },
+    {
+        "id": 32,
+        "title": "\nSpeak to the Figure",
+        "text": "You decide to speak to the figure, though its presence fills you with unease. ‘Who are you?’ you ask. The figure’s lips twitch into a faint smile before answering: ‘I am the one who awaits. The one who watches those who dare enter this realm. Your choices will define your fate.’ As it speaks, the air thickens, and shadows grow longer. You feel as though you’re being suffocated by its words. Do you ask more questions, leave, or prepare to fight?",
+        "options": [
+            {"text": "Ask more questions.", "next_id": 37},
+            {"text": "Leave the chamber.", "next_id": 38},
+            {"text": "Prepare to fight.", "next_id": 39}
+        ]
+    },
+    {
+        "id": 33,
+        "title": "\nPrepare for a Fight",
+        "text": "You gather all your strength and prepare for a fight. The figure seems to anticipate your move, and with a sudden, fluid motion, it reveals a weapon—a blade forged from pure darkness. It lunges at you with inhuman speed. Do you block, counterattack, or dodge?",
+        "options": [
+            {"text": "Block the attack.", "next_id": 40},
+            {"text": "Counterattack with your own weapon.", "next_id": 41},
+            {"text": "Dodge and wait for an opening.", "next_id": 42}
+        ]
+    },
+    {
+        "id": 34,
+        "title": "\nThe Figure's Secret",
+        "text": "As you speak the words of truth, the figure’s form begins to shift and flicker. A terrible cry echoes through the chamber, and the shadows retreat, revealing the truth—its true form. It is not just a figure, but a collection of forgotten souls, their faces twisted in eternal torment. ‘You were right to seek the truth,’ the figure says with a voice full of regret. ‘Now you must decide—will you leave this place and forget, or will you take the burden of knowledge with you?’",
+        "options": [
+            {"text": "Leave and forget.", "next_id": 43},
+            {"text": "Take the burden of knowledge.", "next_id": 44}
+        ]
+    },
+    {
+        "id": 35,
+        "title": "\nSilence",
+        "text": "You remain silent, the figure’s gaze piercing you. It seems to ponder your response for a moment before it vanishes into the darkness. The chamber feels emptier now, the weight of its presence gone. The oppressive air lifts, and you are left alone with your thoughts. Do you continue your journey, or search for answers elsewhere?",
+        "options": [
+            {"text": "Continue your journey.", "next_id": 45},
+            {"text": "Search for answers elsewhere.", "next_id": 46}
+        ]
+    },
+    {
+        "id": 36,
+        "title": "\nAttack the Figure",
+        "text": "You lash out at the figure, but it moves with a speed that defies logic. The darkness shifts around it, making it almost impossible to land a blow. You’re caught in its grip, feeling the weight of despair closing in. The figure laughs softly, its voice like ice scraping against stone. ‘Foolish mortal,’ it whispers. ‘You should have known better.’ The darkness wraps around you, pulling you into the void.",
+        "options": [
+            {"text": "Fight back with all your strength.", "next_id": 47},
+            {"text": "Surrender to the darkness.", "next_id": 48}
+        ]
+    },
+    {
+        "id": 37,
+        "title": "\nAsk More Questions",
+        "text": "You press the figure for more answers, but it only responds with cryptic words: ‘The road ahead is not a path, but a choice—a choice to abandon the past or embrace it. What will you become?’ The shadows around you begin to twist into shapes—figures from your past, your mistakes, your regrets. The air becomes thick with memories, both painful and forgotten. Do you confront them, flee, or demand the figure tell you more?",
+        "options": [
+            {"text": "Confront the figures from your past.", "next_id": 49},
+            {"text": "Flee the chamber.", "next_id": 50},
+            {"text": "Demand more answers.", "next_id": 51}
+        ]
+    },
+    {
+        "id": 38,
+        "title": "\nLeave the Chamber",
+        "text": "You turn away from the figure, deciding that some answers are better left unknown. As you exit the chamber, the door slams shut behind you. The room feels like a memory, fading with every step you take. You are now in a long, winding corridor, the walls flickering with strange lights. Do you walk down the corridor, investigate the flickering lights, or turn back?",
+        "options": [
+            {"text": "Walk down the corridor.", "next_id": 52},
+            {"text": "Investigate the flickering lights.", "next_id": 53},
+            {"text": "Turn back to the chamber.", "next_id": 54}
+        ]
+    },
+    {
+        "id": 39,
+        "title": "\nPrepare for a Fight",
+        "text": "You ready yourself, anticipating the next move. The figure’s blade moves with deadly precision, but you parry its strike and lash out with your own weapon. It steps back, its form shifting, as though it’s made of both light and shadow. The battle rages on, each strike more dangerous than the last. The darkness around you intensifies. Will you break through or succumb to the shadows?",
+        "options": [
+            {"text": "Break through the shadows.", "next_id": 55},
+            {"text": "Counterattack with everything you have.", "next_id": 56},
+            {"text": "Retreat and reassess.", "next_id": 57}
+        ]
+    },
+    {
+        "id": 40,
+        "title": "\nBlock the Attack",
+        "text": "You manage to block the figure’s attack with your weapon, the dark blade clashing against your own. A shockwave of dark energy ripples out, but you hold your ground. The figure stumbles back, seemingly unfazed. It stares at you with contempt. ‘Your strength will not save you,’ it whispers. Do you press your advantage, defend, or try to break its grip?",
+        "options": [
+            {"text": "Press your advantage.", "next_id": 58},
+            {"text": "Defend and wait for an opening.", "next_id": 59},
+            {"text": "Break its grip and escape.", "next_id": 60}
+        ]
+    },
+    {
+        "id": 41,
+        "title": "\nCounterattack with Your Weapon",
+        "text": "You strike back with all the fury you can muster, your weapon flashing through the air. The figure parries your blow with ease, its own blade cutting through the shadows like a knife through silk. The room shifts, growing darker, the figure’s presence growing stronger. Do you keep fighting, try to escape, or search for something in the room to use against it?",
+        "options": [
+            {"text": "Keep fighting.", "next_id": 61},
+            {"text": "Try to escape.", "next_id": 62},
+            {"text": "Search for something to use.", "next_id": 63}
+        ]
+    },
+    {
+        "id": 42,
+        "title": "\nDodge and Wait for an Opening",
+        "text": "You evade the figure’s attack, your body moving with precision. The figure’s blade slices through the air, missing you by inches. The darkness around you grows more oppressive as you wait for an opening. You can sense its next move. Do you strike now, continue dodging, or attempt to break free?",
+        "options": [
+            {"text": "Strike now.", "next_id": 64},
+            {"text": "Continue dodging.", "next_id": 65},
+            {"text": "Attempt to break free.", "next_id": 66}
+        ]
+    },
+    {
+        "id": 43,
+        "title": "\nLeave and Forget",
+        "text": "You choose to leave, the knowledge too heavy to carry. As you walk away, the world around you fades, returning to the darkness. The whispers fade, and you are left alone, lost in the void. You are free, but forever changed. The darkness remains, waiting for the next traveler.",
+        "options": [
+            {"text": "End the journey.", "next_id": 67}
+        ]
+    },
+    {
+        "id": 44,
+        "title": "\nTake the Burden of Knowledge",
+        "text": "With a heavy heart, you take the knowledge the figure offers. The world shifts as you feel the weight of the truth settle upon your shoulders. It is a burden—one that will stay with you forever. But you now see the world as it truly is, with all its darkness and light, and you are ready to face whatever comes next.",
+        "options": [
+            {"text": "Embrace your fate.", "next_id": 68}
+        ]
+    },
+    {
+    "id": 45,
+    "title": "\nContinue Your Journey",
+    "text": "You press onward, your footsteps echoing in the empty corridor. The shadows seem to watch you, but you remain resolute. Ahead, you notice a strange door, one that glows faintly with an eerie light. It beckons you, as if it holds the answers you seek. Do you open it, investigate the surroundings first, or walk past?",
+    "options": [
+        {"text": "Open the door.", "next_id": 69},
+        {"text": "Investigate the surroundings.", "next_id": 70},
+        {"text": "Walk past the door.", "next_id": 71}
+    ]
+},
+{
+    "id": 46,
+    "title": "\nSearch for Answers Elsewhere",
+    "text": "You decide to explore further, searching for other clues or answers. The walls shift, and the ground beneath you begins to hum with a low, rhythmic sound. As you move through the strange halls, you come across an ancient library. The shelves are lined with old tomes, some of which seem to pulse with energy. Do you investigate the books, look for a hidden passage, or leave the library?",
+    "options": [
+        {"text": "Investigate the books.", "next_id": 72},
+        {"text": "Look for a hidden passage.", "next_id": 73},
+        {"text": "Leave the library.", "next_id": 74}
+    ]
+},
+{
+    "id": 47,
+    "title": "\nFight Back with All Your Strength",
+    "text": "You fight back with every ounce of strength you have. The figure’s dark blade clashes against yours, sparks flying as the energy from the battle intensifies. The shadows swirl around you both, making it difficult to see. With a final, desperate strike, you land a blow that sends the figure reeling. But its eyes glow with fury as it begins to regenerate. It seems almost impossible to defeat. Do you continue to fight, attempt to escape, or search for a way to weaken it?",
+    "options": [
+        {"text": "Continue to fight.", "next_id": 75},
+        {"text": "Attempt to escape.", "next_id": 76},
+        {"text": "Search for a way to weaken it.", "next_id": 77}
+    ]
+},
+{
+    "id": 48,
+    "title": "\nSurrender to the Darkness",
+    "text": "You surrender, letting the darkness consume you. The void envelops your senses, and you feel yourself drifting. The shadows offer no comfort, only cold emptiness. Your body fades into the abyss, your consciousness lost. In this realm, there is no escape, no second chances. It is over.",
+    "options": [
+        {"text": "End the journey.", "next_id": 78}
+    ]
+},
+{
+    "id": 49,
+    "title": "\nConfront the Figures from Your Past",
+    "text": "You step forward, confronting the shadows that take the shape of figures from your past. The faces are familiar, yet twisted by regret and guilt. As you face them, the memories flood back—both the good and the bad. The figures speak in voices you know well, pleading with you to forgive them, or to understand their choices. Do you forgive them, fight them, or demand answers?",
+    "options": [
+        {"text": "Forgive them.", "next_id": 79},
+        {"text": "Fight them.", "next_id": 80},
+        {"text": "Demand answers.", "next_id": 81}
+    ]
+},
+{
+    "id": 50,
+    "title": "\nFlee the Chamber",
+    "text": "You turn and flee, running down the darkened corridor. The figure’s presence looms behind you, but you push forward, ignoring the fear that gnaws at your mind. The flickering lights ahead reveal a doorway, though you’re unsure where it leads. Do you enter the doorway, keep running, or stop to catch your breath?",
+    "options": [
+        {"text": "Enter the doorway.", "next_id": 82},
+        {"text": "Keep running.", "next_id": 83},
+        {"text": "Stop and catch your breath.", "next_id": 84}
+    ]
+},
+{
+    "id": 51,
+    "title": "\nDemand More Answers",
+    "text": "You demand more answers from the figure, pressing for clarity in the cryptic words. The figure’s smile fades, replaced by a look of pity. ‘You ask for what cannot be given,’ it says. ‘There are things beyond your comprehension. But perhaps, you can still learn the cost of seeking too much.’ The shadows around you seem to pulse with a strange energy. Do you ask again, leave, or prepare to fight?",
+    "options": [
+        {"text": "Ask again.", "next_id": 85},
+        {"text": "Leave the chamber.", "next_id": 86},
+        {"text": "Prepare to fight.", "next_id": 87}
+    ]
+},
+{
+    "id": 52,
+    "title": "\nWalk Down the Corridor",
+    "text": "You take a deep breath and walk down the corridor, your steps slow but steady. The flickering lights ahead cast strange, shifting shadows. As you approach, you realize that the walls themselves seem to pulse with energy. The door at the end of the hallway is adorned with strange symbols. Do you open the door, try to decipher the symbols, or turn back?",
+    "options": [
+        {"text": "Open the door.", "next_id": 88},
+        {"text": "Try to decipher the symbols.", "next_id": 89},
+        {"text": "Turn back.", "next_id": 90}
+    ]
+},
+{
+    "id": 53,
+    "title": "\nInvestigate the Flickering Lights",
+    "text": "You move closer to the flickering lights, trying to discern their source. As you touch one, it shatters like glass, releasing a wave of cold air. The fragments swirl around you, forming an eerie pattern on the ground. The ground beneath you begins to tremble. Do you follow the pattern, run away, or investigate further?",
+    "options": [
+        {"text": "Follow the pattern.", "next_id": 91},
+        {"text": "Run away.", "next_id": 92},
+        {"text": "Investigate further.", "next_id": 93}
+    ]
+},
+{
+    "id": 54,
+    "title": "\nTurn Back to the Chamber",
+    "text": "You decide to return to the chamber, hoping to find something you missed before. As you step back into the room, the figure is gone, but the shadows still linger. The door to the outside world is now open, but you feel a pull towards the darkness. Do you leave, search for more answers, or face the shadows once more?",
+    "options": [
+        {"text": "Leave the chamber.", "next_id": 94},
+        {"text": "Search for more answers.", "next_id": 95},
+        {"text": "Face the shadows.", "next_id": 96}
+    ]
+},
+{
+    "id": 55,
+    "title": "\nBreak Through the Shadows",
+    "text": "You push through the shadows with a fierce resolve, your strength surging as you battle against the oppressive darkness. The figure falters, unable to maintain its form in the face of your determination. You land a decisive blow, shattering its form into a million pieces. The room grows quiet, and the shadows slowly fade. You've won—at least for now.",
+    "options": [
+        {"text": "Search for a way out.", "next_id": 97},
+        {"text": "Rest and recover.", "next_id": 98}
+    ]
+},
+{
+    "id": 56,
+    "title": "\nCounterattack with Everything You Have",
+    "text": "You unleash everything you have, striking with a flurry of blows. The figure stumbles, caught off guard by the intensity of your attack. The blade it wields grows heavier, and its movements slow. But just when it seems like you've gained the upper hand, the shadows around you thicken. It’s not over yet. Do you continue to fight, try to escape, or focus on weakening the shadows?",
+    "options": [
+        {"text": "Continue to fight.", "next_id": 99},
+        {"text": "Try to escape.", "next_id": 100},
+        {"text": "Focus on weakening the shadows.", "next_id": 101}
+    ]
+},
+{
+    "id": 57,
+    "title": "\nRetreat and Reassess",
+    "text": "You decide to retreat, pulling back from the figure's relentless onslaught. You take a moment to reassess, the darkness swirling around you as you gather your strength. There’s something about the shadows you’ve yet to understand—perhaps a weakness. Do you continue to fight, attempt to escape, or search for a way to turn the shadows against the figure?",
+    "options": [
+        {"text": "Continue to fight.", "next_id": 102},
+        {"text": "Attempt to escape.", "next_id": 103},
+        {"text": "Search for a way to turn the shadows against it.", "next_id": 104}
+    ]
+}
+
 ]
 

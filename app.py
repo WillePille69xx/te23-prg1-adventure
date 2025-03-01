@@ -35,7 +35,7 @@ def load_game():
         print("\033[32m[Game Loaded Successfully]\033[0m")
         return True
     except (json.JSONDecodeError, KeyError):
-        print("\033[31m[Error loading save file]\033[0m")
+        print("\033[31m\33[Error loading save file]\033[0m")
         return False
 
 def delete_save():
